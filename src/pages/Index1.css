@@ -1,0 +1,25 @@
+.customeDate {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customeDate:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.customeDate::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.customeDate:hover {
+  border-color: #007bff;
+}
