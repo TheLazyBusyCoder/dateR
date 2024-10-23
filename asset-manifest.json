@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dateR/static/css/main.1fd77080.css",
+    "main.js": "/dateR/static/js/main.ce245c18.js",
+    "static/js/453.bfd3cb67.chunk.js": "/dateR/static/js/453.bfd3cb67.chunk.js",
+    "index.html": "/dateR/index.html",
+    "main.1fd77080.css.map": "/dateR/static/css/main.1fd77080.css.map",
+    "main.ce245c18.js.map": "/dateR/static/js/main.ce245c18.js.map",
+    "453.bfd3cb67.chunk.js.map": "/dateR/static/js/453.bfd3cb67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fd77080.css",
+    "static/js/main.ce245c18.js"
+  ]
+}
