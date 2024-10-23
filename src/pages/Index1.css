@@ -1,12 +1,9 @@
-.customeDate {
+.customeDated {
   font-family: Arial, sans-serif;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   background-color: black;
   color: white;
-  font-size: 16px;
-  box-sizing: border-box;
   outline: none;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -22,4 +19,23 @@
 
 .customeDate:hover {
   border-color: #007bff;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateX(-100px);
+
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.pop-animation {
+  animation: pop 0.2s ease-in-out;
 }

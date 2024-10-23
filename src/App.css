@@ -1,10 +1,32 @@
 .someclass {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(70, 70, 70);
   border: 3px solid white;
   color: white;
   transition: all 0.2s ease-in-out;
 }
 
+.someclassactive {
+  background-color: rgb(28, 28, 28);
+}
+
 .someclass:hover {
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(28, 28, 28);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+  background: transparent;
+}
+
+.custom-scrollbar {
+  scrollbar-width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: #000000;
 }
